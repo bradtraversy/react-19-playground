@@ -110,7 +110,7 @@ const HomePage = () => {
           </li>
           <li className='bg-blue-50 p-4 rounded shadow my-5'>
             <div>
-              <h3 className='text-2xl font-bold'>useOptimisitc Example</h3>
+              <h3 className='text-2xl font-bold'>useOptimistic Example</h3>
               <p className='my-2'>
                 Use the useOptimistic hook to show a message before the server
                 responds

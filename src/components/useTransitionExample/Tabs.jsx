@@ -21,7 +21,7 @@ export function Tabs() {
           Tab One
         </TabButton>
         <TabButton isActive={tab === 'tab2'} onClick={() => selectTab('tab2')}>
-          Tab 2 (slow)
+          Tab 2 {isPending?"(loading...)": "(Slow)"}
         </TabButton>
         <TabButton isActive={tab === 'tab3'} onClick={() => selectTab('tab3')}>
           Tab 3
